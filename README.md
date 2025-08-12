@@ -26,7 +26,7 @@ Data Loading (Python): Validated data is loaded into the Fabric Lakehouse for st
 BI Refresh (Power BI REST API): Once the data is loaded, the pipeline automatically triggers a refresh of a specified Power BI dataset, ensuring dashboards are always up-to-date.
 
 Directory structure
-
+```
 fabric_data_engineering_project/
 │
 ├── src/
@@ -57,3 +57,4 @@ fabric_data_engineering_project/
 ├── azure-pipelines.yml
 ├── requirements.txt
 └── README.md
+```
