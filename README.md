@@ -1,4 +1,5 @@
-Data Engineering on Microsoft Fabric
+## Data Engineering on Microsoft Fabric
+
 This project demonstrates a complete, end-to-end data engineering solution built on Microsoft Fabric. It uses Terraform for infrastructure as code, Python for data ingestion and processing logic, Great Expectations for data quality, and Azure DevOps for CI/CD automation.
 
 The solution is designed to handle both batch and streaming data, process it through a validation pipeline, store it in a Fabric Lakehouse and Warehouse, and automatically trigger Power BI refreshes.
