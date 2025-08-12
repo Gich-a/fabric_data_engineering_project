@@ -1,0 +1,10 @@
+name: streaming_checkpoint
+config_version: 1
+class_name: Checkpoint
+run_name_template: "%Y-%m-%d-%H-%M-streaming"
+validations:
+  - batch_request:
+      datasource_name: streaming_source
+      data_connector_name: default_inferred_data_connector_name
+      data_asset_name: streaming_dataset
+    expectation_suite_name: streaming_expectations
