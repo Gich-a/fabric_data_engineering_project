@@ -1,0 +1,11 @@
+azure-identity
+azure-keyvault-secrets
+azure-storage-blob
+azure-eventhub
+azure-core
+pyodbc
+requests
+pandas
+great_expectations
+pytest
+msal
